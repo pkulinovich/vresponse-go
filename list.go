@@ -7,6 +7,5 @@ func NewList(items interface{}) *List {
 }
 
 type List struct {
-	HasMore bool        `json:"hasMore"`
-	Items   interface{} `json:"items"`
+	Items interface{} `json:"items"`
 }
